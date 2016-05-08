@@ -1,22 +1,43 @@
-
-
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+@font-face {
+  font-family: "Gotham";
+  src: url(../fonts/Gotham/Gotham-Light.otf);
+}
 
+@font-face {
+  font-family: "Liberator";
+  src: url(../fonts/Liberator/Liberator_Personal_License/Liberator_OTF/Liberator-Heavy.otf);
+}
 
+header.jumbotron {
+  background-image:url('../img/lazarisimage.png');
+  background-size:cover;
+  background-color: #EEEEEE;
+  height: 640px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
 
+.jumbotron.sub-heading {
+  background-color: #002244;
+  padding-top: 0;
+  height: 680px;
+}
 
+.very-important-words {
+  padding-top: 125px;
+  padding-left: 187px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
+.hulk-out {
+  margin: 0;
+  padding: 0;
+  font-family: Liberator;
+  color: #62BF2A !important;
+  line-height: 1.2;
+  font-size: 74px !important;
+  letter-spacing: 12px;
+}
 
