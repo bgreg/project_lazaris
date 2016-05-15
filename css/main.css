@@ -220,6 +220,10 @@ section.speaker .important-paragraph {
   text-align: center;
 }
 
+section.speaker .resume-line .primary {
+  font-size: 20px;
+}
+
 section.process header.jumbotron {
   background-image:url('../img/processimage.png');
   background-repeat: no-repeat;
@@ -230,6 +234,15 @@ section.process header.jumbotron {
   margin-bottom: 0;
 }
 
+section.process img.start {
+  width: 200px;
+}
+
+section.process .process-card img{
+  width: 100px;
+  height: 100px;
+}
+
 section.contact header.jumbotron {
   background-image:url('../img/contactimage.png');
   background-repeat: no-repeat;
@@ -238,6 +251,15 @@ section.contact header.jumbotron {
   height: 640px;
   padding-bottom: 0;
   margin-bottom: 0;
+}
+
+section.contact .contact-card li{
+  border: 1px solid #62BF2A;
+  padding: 8px;
+}
+
+section.contact .contact-card a{
+  font-size: 20px;
 }
 
 footer {
@@ -264,6 +286,19 @@ footer {
 }
 
 .date {
-  width: 360px;
-  height: 55px;
+  width: 340px;
+  height: 75px;
+}
+
+.m-b {
+  margin-bottom: 40px !important;
+}
+
+.m-t {
+  margin-top: 10px !important;
+}
+
+hr {
+  border-top: 1px solid #62BF2A;
+  width: 675px;
 }
