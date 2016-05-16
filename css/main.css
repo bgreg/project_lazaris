@@ -2,6 +2,10 @@
    Author's custom styles
    ========================================================================== */
 
+/* ##################################### */
+/* # reusable components and utilities # */
+/* ##################################### */
+
 @font-face {
   font-family: "Gotham Medium";
   src: url(../fonts/Gotham/Gotham-Medium.otf);
@@ -22,6 +26,83 @@
   src: url(../fonts/Liberator/Liberator_Personal_License/Liberator_OTF/Liberator-Medium.otf);
 }
 
+/* bootstrap overide to prevent container size change */
+.container {
+  width: 970px !important;
+}
+
+footer ul li {
+  font-size: 20px;
+  letter-spacing: 4px;
+  padding: 20px;
+}
+
+.oxford {
+  background-color: #002244;
+}
+
+.white {
+  color: #FFFFFF;
+}
+
+.hulk-out {
+  margin: 0;
+  padding: 0;
+  font-family: Liberator;
+  line-height: 1.2;
+  font-size: 74px !important;
+  letter-spacing: 12px;
+}
+
+.very-important-word-box {
+  padding-top: 125px;
+  padding-left: 187px;
+}
+
+.primary {
+  color: #62BF2A !important;
+}
+
+.date {
+  width: 340px;
+  height: 75px;
+}
+
+.m-b {
+  margin-bottom: 40px !important;
+}
+
+.m-b-lg {
+  margin-bottom: 60px !important;
+}
+
+.m-t {
+  margin-top: 10px !important;
+}
+
+.m-r {
+  margin-right: 15px;
+}
+
+.m-l {
+  margin-right: 15px;
+}
+
+hr {
+  border-top: 1px solid #62BF2A;
+  width: 675px;
+}
+
+.headline-image {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  width: 750px;
+  margin: 0 auto;
+}
+
+/* ###################################### */
+/* #  section specific adjustments      # */
+/* ###################################### */
 header.jumbotron {
   background-image:url('../img/lazarisimage.png');
   background-repeat: no-repeat;
@@ -41,15 +122,6 @@ section.sub-heading {
   white-space: -o-pre-wrap; /* Opera */
   white-space: pre-wrap; /* Chrome */
   word-wrap: break-word; /* IE */
-}
-
-.hulk-out {
-  margin: 0;
-  padding: 0;
-  font-family: Liberator;
-  line-height: 1.2;
-  font-size: 74px !important;
-  letter-spacing: 12px;
 }
 
 .image-area {
@@ -79,7 +151,6 @@ section.about img.zoom {
 section.about .important-paragraph {
   float: left;
   margin-top: 22px;
-  margin-left: -102px;
   width: 465px;
 }
 
@@ -91,13 +162,13 @@ section.about .important-paragraph {
 
 #dribble-box {
   float: left;
-  margin-left: 27px;
+  margin-left: 105px;
   margin-top: 25px;
 }
 
 #behance-box {
   float: left;
-  margin-left: 27px;
+  margin-left: 105px;
   margin-top: 25px;
 }
 
@@ -126,7 +197,7 @@ section.about .important-paragraph {
 
 section.about div.body {
   float: left;
-  margin-left: 27px;
+  margin-left: 105px;
   margin-top: 30px;
   width: 300px;
 }
@@ -136,8 +207,8 @@ section.about div.body p{
 }
 
 fieldset.hulk-box {
-  padding: 10px;
-  width: 400px;
+  padding: 15px;
+  width: 350px;
   border: 8px solid #62BF2A;
 }
 
@@ -151,7 +222,7 @@ fieldset.hulk-box legend{
 
 fieldset.hulk-box p{
   font-family: Gotham Medium;
-  font-size: 20px;
+  font-size: 18px;
   margin-top: -20px;
 }
 
@@ -160,20 +231,11 @@ section.about fieldset.hulk-box {
   margin-left: 140px;
 }
 
-.headline-image {
-  padding-top: 100px;
-  padding-bottom: 100px;
-  width: 900px;
-  margin: 0 auto;
-}
-
-.about.headline-image {
-}
 
 section.about img[src="img/resume.png"] {
   width: 310px;
   height: 80px;
-  margin-right: 244px;
+  margin-right: 72px;
   margin-top: -80px;
 }
 
@@ -239,7 +301,7 @@ section.process img.start {
 }
 
 section.process .process-card img{
-  width: 100px;
+  /* width: 100px; */
   height: 100px;
 }
 
@@ -253,52 +315,24 @@ section.contact header.jumbotron {
   margin-bottom: 0;
 }
 
+section.contact .body {
+  font-size: 17px;
+  font-family: "Gotham Medium";
+  letter-spacing: 1px;
+}
+
+section.contact .primary {
+  letter-spacing: 2px;
+}
+
 section.contact .contact-card li{
   border: 1px solid #62BF2A;
+  text-align: center;
   padding: 8px;
 }
 
 section.contact .contact-card a{
   font-size: 20px;
+  color: #002244;
 }
 
-footer {
-  height: 50px;
-}
-
-.oxford {
-  background-color: #002244;
-}
-
-.white {
-  color: #FFFFFF ;
-}
-.green {
-}
-
-.very-important-word-box {
-  padding-top: 125px;
-  padding-left: 187px;
-}
-
-.primary {
-  color: #62BF2A !important;
-}
-
-.date {
-  width: 340px;
-  height: 75px;
-}
-
-.m-b {
-  margin-bottom: 40px !important;
-}
-
-.m-t {
-  margin-top: 10px !important;
-}
-
-hr {
-  border-top: 1px solid #62BF2A;
-  width: 675px;
-}
