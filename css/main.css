@@ -207,8 +207,8 @@ section.about div.body p{
 }
 
 fieldset.hulk-box {
-  padding: 15px;
-  width: 350px;
+  padding: 20px;
+  width: 380px;
   border: 8px solid #62BF2A;
 }
 
@@ -218,19 +218,25 @@ fieldset.hulk-box legend{
   color: #62BF2A !important;
   font-family: Liberator;
   font-size: 50px;
+  line-height: 40px;
+  letter-spacing: 6px;
 }
 
 fieldset.hulk-box p{
   font-family: Gotham Medium;
-  font-size: 18px;
+  line-height: 40px;
+  font-size: 25px;
   margin-top: -20px;
+}
+
+fieldset.hulk-box a {
+  color: #2EACDF;
 }
 
 section.about fieldset.hulk-box {
   margin-top: 20px;
   margin-left: 140px;
 }
-
 
 section.about img[src="img/resume.png"] {
   width: 310px;
@@ -266,6 +272,7 @@ section.mentor p.body {
   font-family: Gotham Medium;
   font-size: 20px;
 }
+
 
 section.speaker header.jumbotron {
   margin-top: 150px;
