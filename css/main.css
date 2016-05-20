@@ -308,8 +308,34 @@ section.process img.start {
 }
 
 section.process .process-card img{
-  /* width: 100px; */
   height: 100px;
+}
+
+section.process h1 {
+  margin-top: -46px;
+}
+
+section.process .process-card-row-left {
+  margin-top: 200px;
+}
+
+section.process .process-card-row-right {
+  margin-top: 200px;
+}
+
+section.process .green-border-right {
+  border-right: 3px solid #62BF2A;
+}
+
+section.process .process-line-title {
+  padding-left: 27px;
+  padding-bottom: 20px;
+  padding-top: 40px;
+}
+
+section.process .process-line-finish {
+  padding-top: 20px;
+  padding-left: 27px;
 }
 
 section.contact header.jumbotron {
