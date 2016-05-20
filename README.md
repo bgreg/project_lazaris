@@ -1,17 +1,1 @@
-TODO:
-- [x] Setup Template Libraries, initializr is fine.
-- [x] Header
-- [x] Sub Header
-- [x] About section
-- [x] Test deploy
-- [x] Mentor section
-- [x] Speaker section
-- [x] Test deploy
-- [x] Process section
-- [x] Look to extract more components if possible
-- [x] Contact section
-- [x] Style Footer
-- [x] Test deloy
-- [ ] Fine tune shapes & positions
-- [x] Decide on responsive behaviors
-- [x] test on mobile
+![headline](/titleimage.png)
