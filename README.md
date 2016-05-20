@@ -1,17 +1,17 @@
 TODO:
-- [x] Setup Template Libraries, initializr is fine. 
+- [x] Setup Template Libraries, initializr is fine.
 - [x] Header
 - [x] Sub Header
 - [x] About section
-- [ ] Test deploy
-- [ ] Mentor section
-- [ ] Speaker section
-- [ ] Test deploy
-- [ ] Process section
-- [ ] Look to extract more components if possible 
-- [ ] Contact section
-- [ ] Style Footer
-- [ ] Test deloy
+- [x] Test deploy
+- [x] Mentor section
+- [x] Speaker section
+- [x] Test deploy
+- [x] Process section
+- [x] Look to extract more components if possible
+- [x] Contact section
+- [x] Style Footer
+- [x] Test deloy
 - [ ] Fine tune shapes & positions
-- [ ] Decide on responsive behaviors
-- [ ] test on mobile 
+- [x] Decide on responsive behaviors
+- [x] test on mobile
