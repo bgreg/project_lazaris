@@ -113,7 +113,7 @@ hr {
 .headline-image {
   padding-top: 100px;
   padding-bottom: 100px;
-  width: 700px;
+  width: 900px;
   margin: 0 auto;
 }
 
@@ -186,6 +186,25 @@ fieldset.hulk-box p{
   line-height: 40px;
   font-size: 20px;
   margin-top: -20px;
+}
+
+#floating-menu {
+  position: fixed;
+  top: 500px;
+  right:20px;
+  float: right;
+  padding-right: 20px;
+}
+
+#floating-menu a{
+  color: white;
+  font-family: Liberator Light;
+  letter-spacing: 3px;
+}
+
+#floating-menu li {
+  text-align: right;
+  list-style: none;
 }
 
 
@@ -313,10 +332,6 @@ section.speaker header.jumbotron {
   margin-bottom: 0;
 }
 
-section.speaker .headline-image {
-  width: 900px;
-}
-
 section.speaker .important-paragraph {
   text-align: center;
 }
@@ -406,10 +421,6 @@ section.contact header.jumbotron {
   margin-bottom: 0;
 }
 
-section.contact .headline-image {
-  width: 900px;
-}
-
 section.contact .body {
   font-size: 17px;
   font-family: "Gotham Medium";
@@ -432,4 +443,3 @@ section.contact .contact-card a{
   letter-spacing: 3px;
   color: #002244;
 }
-

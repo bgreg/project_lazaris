@@ -15,9 +15,7 @@
   <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
   <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/main.css">
-
   <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
 </head>
 <body>
@@ -33,7 +31,18 @@
   <!-- </section> -->
 
   <header class="jumbotron"></header>
-  <section class="sub-heading oxford">
+
+  <div id="floating-menu">
+    <ul>
+      <li class="white"><a href="#about">ABOUT</a></li>
+      <li class="white"><a href="#mentoring">MENTORING</a></li>
+      <li class="white"><a href="#speaking">SPEAKING</a></li>
+      <li class="white"><a href="#process">PROCESS</a></li>
+      <li class="white"><a href="#contact">CONTACT</a></li>
+    </ul>
+  </div>
+
+  <section id="about" class="sub-heading oxford">
     <div class="very-important-word-box">
       <h1 class="hulk-out primary">DESIGNER</h1>
       <h1 class="hulk-out primary">MENTOR</h1>
@@ -44,20 +53,7 @@
   </section>
 
   <div class="container">
-
-    <!-- todo: -->
-    <!-- this needs floating scroll nav -->
-    <!-- <div id="floating-menu pull-right"> -->
-    <!--   <ul> -->
-    <!--     <li class="white">ABOUT</li> -->
-    <!--     <li class="white">MENTORING</li> -->
-    <!--     <li class="white">SPEAKING</li> -->
-    <!--     <li class="white">PROCESS</li> -->
-    <!--     <li class="white">CONTACT</li> -->
-    <!--   </ul> -->
-    <!-- </div> -->
-
-    <section class="row">
+    <section  class="row">
       <div class="col-xs-12">
         <img src="img/about.png" alt="" class="img-responsive headline-image about">
       </div>
@@ -124,7 +120,7 @@
     </section>
   </div>
 
-  <section class="mentor">
+  <section id="mentoring" class="mentor">
     <header class="jumbotron"></header>
     <img src="img/mentor.png" class="img-responsive headline-image" alt="mentor">
     <div class="row">
@@ -160,7 +156,7 @@
     </div>
   </section>
 
-  <section class="speaker oxford">
+  <section id="speaking" class="speaker oxford">
     <header class="jumbotron"></header>
     <img src="img/speaker.png" class="img-responsive headline-image" alt="speaker">
     <div class="row m-b">
@@ -279,7 +275,7 @@
     </div>
   </section>
 
-  <section class="process">
+  <section id="process" class="process">
     <header class="jumbotron"></header>
     <img src="img/process.png" class="img-responsive headline-image" alt="process">
     <div class="row">
@@ -385,7 +381,7 @@
       </div>
   </section>
 
-  <section class="contact m-b-lg">
+  <section id="contact" class="contact m-b-lg">
     <header class="jumbotron"></header>
     <img src="img/contact.png" class="img-responsive headline-image" alt="contact">
 
@@ -414,7 +410,7 @@
 
   <footer class="oxford primary">
     <div class="row">
-      <div class="col-xs-6 col-xs-offset-3">
+      <div class="col-xs-7 col-xs-offset-3">
         <ul class="list-inline">
           <li class="m-r">BEHANCE</li>
           <li class="m-r">DRIBBLE</li>
@@ -431,8 +427,7 @@
   <script src="js/main.js"></script>
   <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
   <script>
-(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-                                                        function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]= function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
 e=o.createElement(i);r=o.getElementsByTagName(i)[0];
 e.src='//www.google-analytics.com/analytics.js';
 r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
