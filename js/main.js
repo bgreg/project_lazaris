@@ -15,14 +15,15 @@ $(document).ready(function(){
   });
 
   $(window).scroll(function(){
-    var offset = $("#floating-menu").offset().top
-    if(offset > 1300 && offset < 2820){
+    var offset = $(window).scrollTop() + $("#floating-menu").position().top;
+
+    if(offset > $("#about-top").first().position().top && offset < $("#about-bottom").position().top) {
       $("#floating-menu a").css("color", "black");
-    } else if(offset > 3566 && offset < 4399){
+    } else if(offset > $("#mentor-top").first().position().top && offset < $("#mentor-bottom").position().top){
       $("#floating-menu a").css("color", "black");
-    } else if(offset > 7496 && offset < 8960){
+    } else if(offset > $("#process-top").first().position().top && offset < $("#process-bottom").position().top){
       $("#floating-menu a").css("color", "black");
-    } else if(offset > 9703 && offset < 9900){
+    } else if(offset > $("#contact-top").first().position().top && offset < $("#contact-bottom").position().top){
       $("#floating-menu a").css("color", "black");
     } else{
       $("#floating-menu a").css("color", "white");
