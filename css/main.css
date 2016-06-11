@@ -44,12 +44,6 @@
 /* ############# */
 /* # Utilities # */
 /* ############# */
-footer ul li {
-  font-size: 20px;
-  letter-spacing: 4px;
-  padding: 20px;
-}
-
 .oxford {
   background-color: #002244;
 }
@@ -341,15 +335,18 @@ section.speaker .resume-line .primary {
 }
 
 section.speaker .resume-card h2{
-  font-family: Gotham Black;
-  font-size: 30px;
-  letter-spacing: 5px;
+  font-size: 35px;
+  letter-spacing: 6px;
   margin-top: -35px;
+  font-family: Liberator;
 }
 
 section.speaker .resume-line .body{
   line-height: 25px;
+  letter-spacing: 1px;
+  font-size: 15px;
   margin-top: 40px;
+  font-family: Gotham
 }
 
 section.process header.jumbotron {
@@ -388,8 +385,9 @@ section.process .process-line-finish {
 }
 
 section.process h1 {
-  font-family: Gotham Black;
-  margin-top: -43px;
+  font-family: Liberator;
+  margin-top: -50px;
+  font-size: 45px;
   letter-spacing: 5px;
 }
 
@@ -442,4 +440,10 @@ section.contact .contact-card a{
   font-family: Liberator Light;
   letter-spacing: 3px;
   color: #002244;
+}
+
+footer ul li {
+  font-size: 20px;
+  letter-spacing: 4px;
+  padding: 20px;
 }
